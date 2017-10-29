@@ -1,3 +1,20 @@
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
+
 # Compiled class file
 *.class
 
@@ -18,5 +35,26 @@
 *.tar.gz
 *.rar
 
+# nodejs
+*.swp
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node-server/node_modules
+node_modules
+npm-debug.log
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.metadata/
